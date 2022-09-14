@@ -22,7 +22,6 @@ body {
   background-color: #a9bcd0;
 }
 .reset {
-  margin-left: 5rem;
   margin-top: 2rem;
   font-size: 2rem;
   background-color: #58a4b0;
@@ -34,4 +33,8 @@ body {
 p {
   font-size: 2rem;
   text-align: center;
+}
+.container {
+  display: grid;
+  place-items: center;
 }
