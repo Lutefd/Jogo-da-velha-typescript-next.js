@@ -53,7 +53,7 @@ function Board() {
     }
   });
   return (
-    <div>
+    <div className="container">
       <p>{currentPlayer}, é a sua vez de jogar</p>
       {winner && winner !== 'VELHA' && <p>Parabéns {winner}, você ganhou!</p>}
       {winner && winner === 'VELHA' && <p>Iih, deu velha</p>}
